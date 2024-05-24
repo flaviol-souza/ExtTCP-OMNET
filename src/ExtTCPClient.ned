@@ -20,4 +20,10 @@ package exttcp_omnet;
 //
 simple ExtTCPClient
 {
+    parameters:
+        int addr;
+        int srvAddr;
+        @display("i=device/pc2,gold");
+    gates:
+        inout g;
 }
