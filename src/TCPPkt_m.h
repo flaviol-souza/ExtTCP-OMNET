@@ -2,8 +2,8 @@
 // Generated file, do not edit! Created by nedtool 4.6 from TCPPkt_m.msg.
 //
 
-#ifndef _TCPPKT_M_H_
-#define _TCPPKT_M_H_
+#ifndef _TCPPKT_M_M_H_
+#define _TCPPKT_M_M_H_
 
 #include <omnetpp.h>
 
@@ -63,5 +63,5 @@ inline void doPacking(cCommBuffer *b, TCPPkt& obj) {obj.parsimPack(b);}
 inline void doUnpacking(cCommBuffer *b, TCPPkt& obj) {obj.parsimUnpack(b);}
 
 
-#endif // ifndef _TCPPKT_M_H_
+#endif // ifndef _TCPPKT_M_M_H_
 
