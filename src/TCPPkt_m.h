@@ -1,9 +1,9 @@
 //
-// Generated file, do not edit! Created by nedtool 4.6 from TCPPkt.msg.
+// Generated file, do not edit! Created by nedtool 4.6 from TCPPkt_m.msg.
 //
 
-#ifndef __EXTTCP_OMNET_TCPPKT_M_H_
-#define __EXTTCP_OMNET_TCPPKT_M_H_
+#ifndef _TCPPKT_M_H_
+#define _TCPPKT_M_H_
 
 #include <omnetpp.h>
 
@@ -20,7 +20,7 @@
 // }}
 
 /**
- * Class generated from <tt>TCPPkt.msg:22</tt> by nedtool.
+ * Class generated from <tt>TCPPkt_m.msg:27</tt> by nedtool.
  * <pre>
  * //
  * // Message class for representing a Telnet packet (bytes carried in TCP).
@@ -63,4 +63,5 @@ inline void doPacking(cCommBuffer *b, TCPPkt& obj) {obj.parsimPack(b);}
 inline void doUnpacking(cCommBuffer *b, TCPPkt& obj) {obj.parsimUnpack(b);}
 
 
-#endif
+#endif // ifndef _TCPPKT_M_H_
+
